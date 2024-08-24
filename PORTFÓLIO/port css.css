@@ -1,0 +1,218 @@
+:root {
+     --color1: blueviolet; 
+     --color2: #a943e4;
+}
+
+* {
+     margin:0px;
+     padding: 0px;
+}
+
+header {
+     background-color: var(--color1);
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+@font-face {
+     font-family:'Logo' ;
+     src: url(fontes//Rainbow//Easter.otf), format('opentype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+header h1 {
+     font-family: 'Logo', 'Times New Roman', Times, serif;
+}
+
+
+ul {
+display: flex;
+justify-content: end;
+text-decoration: none;
+ padding: 20px; 
+}
+
+#História {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+#História > p {
+     width: 750px;
+     text-align: center;
+}
+
+
+li {
+     list-style: none;
+     font-size: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-decoration: none;
+     padding: 0px 10px;
+}
+
+li a:hover {
+     color:aliceblue;
+     font-size: larger;
+}
+
+#quem_sou {
+     background-color: hsla(0, 0%, 0%, 0.74);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+}
+
+
+#posicionamento_quem_sou {
+     display: flex; 
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     
+
+
+}
+
+
+#quem_sou h1 {
+     font-family:Arial, Helvetica, sans-serif;
+     color: aliceblue;
+}
+
+#quem_sou h2 {
+     font-family:'Courier New', Courier, monospace;
+     color: aliceblue;
+}
+
+main h2 {
+     font-family:Arial, Helvetica, sans-serif;
+     color: var(--color2);
+     padding: 20px;
+}
+
+main p {
+     font-family:Arial, Helvetica, sans-serif;
+     color: aliceblue;
+     padding: 5px
+}
+
+
+
+strong {
+         color: var(--color2);
+
+}
+
+img {
+     padding: 5px;
+     border: 1px solid var(--color2);
+}
+
+#habilidades {
+     display:flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+
+#habilidades h2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#posicionamento_atividades {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+.atividade {
+     border: 3px solid var(--color2);
+     display: flex;
+     width: 300px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     margin: 20px;
+
+}
+
+.atividade:hover {
+     width: 30%;
+}
+
+.atividade h3 {
+     color: var(--color2);
+}
+
+
+
+main p::selection {
+      background-color: var(--color2);
+}
+
+
+
+body {
+     background-image: url(fundo.jpg);
+     background-position: 20%;
+}
+ 
+.f_informacoes {
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+#Atividades {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+video {
+     width: 300px;
+     height: 300px;
+}
+
+
+img {
+     width: 200px;
+     height: 200px;
+}
+
+#contato {
+     background-color: var(--color1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.texto {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+}
+
+footer {
+     background-color: var(--color1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     color:aliceblue;
+     text-transform: capitalize;
+}
